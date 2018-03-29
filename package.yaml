@@ -1,0 +1,33 @@
+name: hw-int
+version: '0.0.0.3'
+synopsis: Integers
+description: Please see README.md
+category: Data
+author: John Ky
+maintainer: newhoggy@gmail.com
+copyright: 2016 John Ky
+license: BSD3
+github: haskell-works/hw-int
+homepage: http://github.com/haskell-works/hw-int#readme
+extra-source-files:
+- README.md
+ghc-options:
+- -Wall
+- -O2
+dependencies:
+- base >=4 && <5
+library:
+  source-dirs: src
+  exposed-modules:
+  - HaskellWorks.Data.Int
+  - HaskellWorks.Data.Int.Narrow
+  - HaskellWorks.Data.Int.Narrow.Narrow8
+  - HaskellWorks.Data.Int.Narrow.Narrow16
+  - HaskellWorks.Data.Int.Narrow.Narrow32
+  - HaskellWorks.Data.Int.Narrow.Narrow64
+  - HaskellWorks.Data.Int.Widen
+  - HaskellWorks.Data.Int.Widen.Widen8
+  - HaskellWorks.Data.Int.Widen.Widen16
+  - HaskellWorks.Data.Int.Widen.Widen32
+  - HaskellWorks.Data.Int.Widen.Widen64
+stability: Experimental
