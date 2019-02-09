@@ -9,7 +9,8 @@ copyright: 2016 John Ky
 license: BSD3
 github: haskell-works/hw-int
 homepage: http://github.com/haskell-works/hw-int#readme
-tested-with: GHC == 8.6.3, GHC == 8.4.4, GHC == 8.2.2, GHC == 8.0.2, GHC == 7.10.3, GHC == 7.8.4, GHC == 7.6.3, GHC == 7.4.2, GHC == 7.2.2 GHC == 7.0.4
+tested-with: GHC == 8.6.3, GHC == 8.4.4, GHC == 8.2.2, GHC == 8.0.2
+stability: Stable
 
 extra-source-files:
 - README.md
@@ -24,4 +25,19 @@ dependencies:
 library:
   source-dirs: src
 
-stability: Experimental
+tests:
+  hw-prim-test:
+    main: Spec.hs
+    source-dirs: test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - QuickCheck          >= 2.10       && < 2.12
+    - hedgehog            >= 0.5        && < 0.7
+    - hspec               >= 2.4        && < 2.6
+    - hw-hspec-hedgehog   >= 0.1        && < 0.2
+    - hw-prim
+    verbatim:
+      build-tool-depends: hspec-discover:hspec-discover
