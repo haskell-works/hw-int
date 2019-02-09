@@ -9,7 +9,7 @@ copyright: 2016 John Ky
 license: BSD3
 github: haskell-works/hw-int
 homepage: http://github.com/haskell-works/hw-int#readme
-tested-with: GHC == 8.4.2, GHC == 8.2.2, GHC == 8.0.2, GHC == 7.10.3, GHC == 7.8.4, GHC == 7.6.3, GHC == 7.4.2, GHC == 7.2.2 GHC == 7.0.4
+tested-with: GHC == 8.6.3, GHC == 8.4.4, GHC == 8.2.2, GHC == 8.0.2, GHC == 7.10.3, GHC == 7.8.4, GHC == 7.6.3, GHC == 7.4.2, GHC == 7.2.2 GHC == 7.0.4
 
 extra-source-files:
 - README.md
