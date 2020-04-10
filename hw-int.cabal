@@ -1,21 +1,21 @@
-cabal-version:        2.2
+cabal-version: 2.2
 
-name:                 hw-int
-version:              0.0.0.4
-synopsis:             Additional facilities for Integers
-description:          Additional faciltiies for Integers. Please see README.md
-category:             Data
-stability:            Experimental
-homepage:             http://github.com/haskell-works/hw-int#readme
-bug-reports:          https://github.com/haskell-works/hw-int/issues
-author:               John Ky
-maintainer:           newhoggy@gmail.com
-copyright:            2016-2020 John Ky
-license:              BSD-3-Clause
-license-file:         LICENSE
-tested-with:          GHC == 8.8.3, GHC == 8.6.5, GHC == 8.4.4
-build-type:           Simple
-extra-source-files:   README.md
+name:                   hw-int
+version:                0.0.0.4
+synopsis:               Additional facilities for Integers
+description:            Additional faciltiies for Integers. Please see README.md
+category:               Data
+stability:              Experimental
+homepage:               http://github.com/haskell-works/hw-int#readme
+bug-reports:            https://github.com/haskell-works/hw-int/issues
+author:                 John Ky
+maintainer:             newhoggy@gmail.com
+copyright:              2016-2020 John Ky
+license:                BSD-3-Clause
+license-file:           LICENSE
+tested-with:            GHC == 8.10.1, GHC == 8.8.3, GHC == 8.6.5, GHC == 8.4.4
+build-type:             Simple
+extra-source-files:     README.md
 
 source-repository head
   type: git
