@@ -45,6 +45,8 @@ library
                         HaskellWorks.Data.Int.Narrow.Narrow32
                         HaskellWorks.Data.Int.Narrow.Narrow64
                         HaskellWorks.Data.Int.Narrow.Narrow8
+                        HaskellWorks.Data.Int.Signed
+                        HaskellWorks.Data.Int.Unsigned
                         HaskellWorks.Data.Int.Widen
                         HaskellWorks.Data.Int.Widen.Widen16
                         HaskellWorks.Data.Int.Widen.Widen32
